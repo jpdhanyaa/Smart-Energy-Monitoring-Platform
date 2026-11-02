@@ -52,10 +52,10 @@ int zeroCurrentAdcOffset = 1650; // Calibrated dynamically during setup()
 // ----------------------------------------------------------------------------
 const char* WIFI_SSID         = "DHANYAA";
 const char* WIFI_PASSWORD     = "dhanyaa30";
-const char* MQTT_BROKER       = "192.168.1.100"; // Local IP or broker domain
+const char* MQTT_BROKER       = "10.144.0.139"; // Local IP or broker domain
 const int   MQTT_PORT         = 1883;
 const char* MQTT_USER         = "energy_client";
-const char* MQTT_PASS         = "energy_secret_pass";
+const char* MQTT_PASS         = "dhanyaa2006";
 
 const char* DEVICE_ID         = "esp32-energy-devkit-01";
 const char* TOPIC_TELEMETRY   = "energy/esp32-energy-devkit-01/telemetry";
