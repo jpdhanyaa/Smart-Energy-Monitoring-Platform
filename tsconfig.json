@@ -17,12 +17,12 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": [
-        "./*"
+        "./*",
+        "./src/*"
       ]
     },
-    "allowImportingTsExtensions": true,
     "noEmit": true
   },
   "include": ["src", "vite.config.ts"],
-  "exclude": ["dist", "backend", "ml-service", "esp32-firmware"]
+  "exclude": ["dist", "backend", "ml-service", "esp32-firmware", "node_modules"]
 }
