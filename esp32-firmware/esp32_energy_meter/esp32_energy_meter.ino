@@ -50,8 +50,8 @@ int zeroCurrentAdcOffset = 1650; // Calibrated dynamically during setup()
 // ----------------------------------------------------------------------------
 // 4. NETWORK & MQTT CREDENTIALS
 // ----------------------------------------------------------------------------
-const char* WIFI_SSID         = "YOUR_WIFI_SSID";
-const char* WIFI_PASSWORD     = "YOUR_WIFI_PASSWORD";
+const char* WIFI_SSID         = "DHANYAA";
+const char* WIFI_PASSWORD     = "dhanyaa30";
 const char* MQTT_BROKER       = "192.168.1.100"; // Local IP or broker domain
 const int   MQTT_PORT         = 1883;
 const char* MQTT_USER         = "energy_client";
